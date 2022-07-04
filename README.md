@@ -27,7 +27,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 ## 🚀 Iniciando <movies>
 
-Para iniciar o <movies>, siga estas etapas:
+Para iniciar o sistema, siga estas etapas:
 
 * Configure o arquivo .env para conexão correta com o banco de dados
 
