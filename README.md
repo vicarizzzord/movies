@@ -51,4 +51,5 @@ yarn dev
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
+
 [⬆ Voltar ao topo](#movies)<br>
