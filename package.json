@@ -1,0 +1,26 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vicarizzzord/movies.git",
+  "author": "Vinícius Vicari <vicari_snoway@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only src/server.ts",
+    "typeorm": "typeorm-ts-node-commonjs"
+  },
+  "dependencies": {
+    "@types/uuid": "^8.3.4",
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ts-node": "^10.8.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.3"
+  }
+}
