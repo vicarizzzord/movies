@@ -29,7 +29,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Para iniciar o sistema, siga estas etapas:
 
-* Configure o arquivo .env para conexão correta com o banco de dados
+* Configure o arquivo .env e docker-compose.yml para conexão correta com o banco de dados
 
 
 * Inicie o docker com:
