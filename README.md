@@ -9,7 +9,7 @@
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/vicarizzzord/movies?style=for-the-badge)
 
 
-> Sistema simples com operações de CRUD para cadastro de vídeos
+> Sistema simples com operações de CRUD para cadastro de filmes
 
 ### Ajustes e melhorias
 
