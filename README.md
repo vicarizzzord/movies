@@ -1,4 +1,4 @@
-# Nome do projeto
+# movies
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -27,9 +27,9 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 ## 🚀 Iniciando <movies>
 
-Para iniciar o <movies>, siga estas etapas:
+Para iniciar o sistema, siga estas etapas:
 
-* Configure o arquivo .env para conexão correta com o banco de dados
+* Configure o arquivo .env e docker-compose.yml para conexão correta com o banco de dados
 
 
 * Inicie o docker com:
@@ -50,5 +50,6 @@ yarn dev
 ## 📝 Licença
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+
 
 [⬆ Voltar ao topo](#movies)<br>
