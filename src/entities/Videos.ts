@@ -1,10 +1,10 @@
-import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryColumn } from "typeorm";
+import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryColumn, PrimaryGeneratedColumn } from "typeorm";
 import {v4 as uuid} from "uuid"
 import { Category } from "./Category";
 
 @Entity("videos")
 export class Video {
-    @PrimaryColumn() 
+    @PrimaryGeneratedColumn() 
     id: string;
     
     @Column()
@@ -27,9 +27,4 @@ export class Video {
     @CreateDateColumn()
     created_at: Date;
 
-    constructor(){
-        if(!this.id){
-            this.id = uuid();
-        }
-    }
 }
